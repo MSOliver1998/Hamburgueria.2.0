@@ -13,7 +13,7 @@ function LoginForm(){
             <Input id={'email'} type={'email'} placeholder={'insira seu email'}>email:</Input>
             <Input id={'senha'} type={'password'} placeholder={'Insira sua senha'}>Senha:</Input>
             <ButtonStyled type="submit">Logar</ButtonStyled>
-            <Link to='register'>não possui login faça já seu cadastro!</Link>
+            <Link to='register'>Crie sua conta para saborear muitas delícias e matar sua fome!</Link>
         </FormStyled>
     )
 }

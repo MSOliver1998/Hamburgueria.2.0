@@ -6,7 +6,7 @@ const FormStyled=styled.form`
     display: flex;
     flex-direction: column;
     gap: 25px;
-    height: 100vh;
+    max-height: 100%;
     align-items: center;
     justify-content: center;
 
@@ -34,7 +34,7 @@ const FormStyled=styled.form`
 
         h1{
             text-transform: capitalize;
-            color: var(--color-brand-1);
+            font-size: 18px;
         }
 
         a{
@@ -54,6 +54,7 @@ const FormStyled=styled.form`
     a{
         text-decoration: none;
         color: var(--color-brand-1);
+        text-align: center;
     }
 
     
