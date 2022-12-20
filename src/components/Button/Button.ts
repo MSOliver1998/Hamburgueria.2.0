@@ -1,4 +1,4 @@
-import { Button } from "./Button.tsx";
+import { Button } from "./Button.jsx";
 import styled from 'styled-components'
 
 const ButtonStyled=styled(Button)`
@@ -35,6 +35,10 @@ const ButtonStyled=styled(Button)`
         border-color: var(--color-grey-1);
     }
 
+    .default{
+        background-color: transparent;
+        width: fit-content;
+    }
 
     @media (min-width: 900px) {
         .remove,.remove:hover{

@@ -38,6 +38,16 @@ const GlobalStyle=createGlobalStyle`
     body{
         font-family: 'Inter', sans-serif;
     }
+
+.material-symbols-outlined{
+    cursor: pointer;
+    
+    &:hover{
+        color: var(--color-brand-1);
+    }
+}
+
+
 `
 
 export {GlobalStyle}

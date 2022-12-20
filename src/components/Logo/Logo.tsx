@@ -1,13 +1,9 @@
 import React from 'react'
-import {LogoStyled} from './Logo'
+import { LogoStyled } from './Logostyled'
 
-interface iLogo{
-    className:string
-}
-
-function Logo({className}:iLogo){
+function Logo(){
     return(
-        <LogoStyled className={className}>Burguer<span> Kenzie</span></LogoStyled>
+        <LogoStyled className={'logo'}>Burguer<span> Kenzie</span></LogoStyled>
     )
 }
 
